@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="description" content="Denne side indeholder informationer omkring Sci-fi Zonen som har Lokaler i Grenå, hvor du kan komme og læse Sci-fi bøger, se fede Sci-fi film og se andre kunstværke i den genre" />
+    <meta name="Keywords" content="Sci-fi, books, movies, sci-fi news" />
+    <meta name="author" content="Benn Hyrum Wigh" />
+    <meta charset="utf-8" />
+    <title>Sci-fi Zonen - Film</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="hjemmeside/scripts/slider.js"></script>
+    <script src="hjemmeside/scripts/newsletter.js"></script>
+
+    <link href="StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="wrapper">
+        <header><img src="hjemmeside/images/Logo.jpg" /></header>
+        <nav>
+            <ul>
+                <li><a href="default.html">Forside</a></li>
+                <li><a href="about.html">Om Sci-fi Zonen</a></li>
+                <li><a href="news.html">Nyheder</a></li>
+                <li>
+                    <a href="#">Sci-fi</a><ul>
+                        <li><a href="books.html">Bøger</a></li>
+                        <li><a href="moives.html">Film</a></li>
+                        <li><a href="grafik.html">Grafik</a></li>
+                    </ul>
+                </li>
+                <li><a href="historie.html">Historie</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+        <article id="film">
+            <h1>Film</h1>
+            <a href="http://www.3dcollegedenmark.dk" target="_blank">3d college danmark</a> <p>  i Grenaa, har sat gang i scifi-gryden, og holder den fint i kog med trailerne til de 2 film, Biomorph som udkommer i 2017 og Invasion som efter planen er sat til at have premiere i 2018.
+Det er eleverne fra 3D college i Danmark der har lavet trailerne, og vi må sige – at det ser godt ud.
+Der er ikke tvivl om at de har fat i den lange ende, når det kommer til Dark Sci-fi og formidling af historie i 3D universet.
+Der ligger mange tusinde timers arbejde bag trailerne, og vi glædes over at have Danmarks Premiere på dem, her på Sci-fi Zonen.
+Nyd trailerne, husk at skrue godt op for lyden.</p>
+        </article>
+        <section>
+            <video class="trailer" controls="controls">
+                <source src="hjemmeside/video/Biomorphhd.mp4" type="video/mp4" />
+            </video>
+            <video class="trailer" controls="controls">
+                <source src="hjemmeside/video/Invasionhd.mp4" type="video/mp4" />
+            </video>
+        </section>
+        <div id="Nyhedsbrev">
+            <h2>Tilmeld eller afmeld dig vores nyhedsbrev:</h2>
+            <form action="#" method="post" id="frmEmailSignup" onsubmit="newsletter(true); return false;">
+                <input class="nyhedsbrev" type="text" name="email" placeholder="Email address" />
+                <input class="nyhedsbrev" type="button" name="signup" value="Tilmeld" />
+                <input class="nyhedsbrev" type="button" name="signout" value="Afmeld" />
+            </form>
+        </div>
+        <footer>
+            <ul>
+                <li><a href="default.html">Forside</a></li>
+                <li><a href="about.html">Om Sci-fi Zonen</a></li>
+            </ul><ul>
+                <li><a href="news.html">Nyheder</a></li>
+                <li><a href="books.html">Bøger</a></li>
+            </ul><ul>
+                <li><a href="moives.html">Film</a></li>
+                <li><a href="grafik.html">Grafik</a></li>
+            </ul><ul>
+                <li><a href="historie.html">Historie</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+            <div class="clearboth"></div>
+            <div class="footertext">
+                <h2>OBS! Eksamens projekt 2015</h2>
+                <h3>© Benn Hyrum Wigh</h3>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="description" content="Denne side indeholder informationer omkring Sci-fi Zonen som har Lokaler i Grenå, hvor du kan komme og læse Sci-fi bøger, se fede Sci-fi film og se andre kunstværke i den genre" />
+    <meta name="Keywords" content="Sci-fi, books, movies, sci-fi news" />
+    <meta name="author" content="Benn Hyrum Wigh" />
+    <meta charset="utf-8" />
+    <title>Sci-fi Zonen - Forsiden</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="hjemmeside/scripts/slider.js"></script>
+    <script src="hjemmeside/scripts/newsletter.js"></script>
+
+    <link href="StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="wrapper">
+        <header><img src="hjemmeside/images/Logo.jpg" /></header>
+        <nav>
+            <ul>
+                <li><a href="default.html">Forside</a></li>
+                <li><a href="about.html">Om Sci-fi Zonen</a></li>
+                <li><a href="news.html">Nyheder</a></li>
+                <li>
+                    <a href="#">Sci-fi</a><ul>
+                        <li><a href="books.html">Bøger</a></li>
+                        <li><a href="moives.html">Film</a></li>
+                        <li><a href="grafik.html">Grafik</a></li>
+                    </ul>
+                </li>
+                <li><a href="historie.html">Historie</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+        <aside id="textforside">
+            <h1>Sci-fi Zonen</h1>
+            <p>Sci-fi zonen er den nye hjemmeside for dig der gerne vil vide mere om hvad der rører sig indenfor sci-fi.Vi er kun ved begyndelsen, i løbet af det næste ½ år kommer der meget mere indhold til. Vi opdaterer dagligt hjemmesiden med nyt, og faktisk også gammelt.</p>
+            <p>Sci-fi er ikke som de fleste tror, et nyt begreb. Det stammer reelt set helt tilbage til oldtiden. Selv i biblen er der fortællinger der nærmer sig sci-fi. Det kommer vi også ind på, her på hjemmesiden. Hvis du vil vide mere om hvad begrebet sci-fi dækker, så læs mere under menupunktet "Historie"</p>
+        </aside>
+        <div class="slider">
+            <script type="text/javascript">
+                loadimg("1.jpg,2.jpg,3.jpg,4.jpg,5.jpg,6.jpg");
+            </script>
+            <img class="sliderImg" src="hjemmeside/images/forside/slider/resized/1.jpg" />
+        </div>
+        <section>
+            <a href="moives.html"> <img id="filmbillede1" src="hjemmeside/images/forside/trailerbilleder/biomorph_11.jpg" alt="Biomorph sci-fi movie" /> </a>
+            <a href="moives.html"> <img id="filmbillede2" src="hjemmeside/images/forside/trailerbilleder/Invasion_10.jpg" alt="Invasion sci-fi movie" /></a>
+        </section>
+        <div class="clearboth"></div>
+        <table id="forsidenyheder">
+            <tr>
+                <td>
+                    <a href="news.html#nyhed1">
+                        <h4>Gambit - nu med egen film</h4>
+                        <img class="forsidenyghederbilleder" src="hjemmeside/images/forside/nyheder/Gambit_Tatum_sm.jpg" />
+                    </a>
+                </td>
+                <td>
+                    <a href="news.html#nyhed2">
+                        <h4>Mad Max nu i blueray</h4>
+                        <img class="forsidenyghederbilleder" src="hjemmeside/images/forside/nyheder/mad_max.jpg" />
+                    </a>
+                </td>
+                <td>
+                    <a href="news.html#nyhed3">
+                        <h4>Maze Runner på dansk</h4>
+                        <img class="forsidenyghederbilleder" src="hjemmeside/images/forside/nyheder/maze_runner.jpg" />
+                    </a>
+                </td>
+                <td>
+                    <a href="news.html#nyhed4">
+                        <h4>Star Trek 3 kommer</h4>
+                        <img class="forsidenyghederbilleder" src="hjemmeside/images/forside/nyheder/star-trek_ent.jpg" />
+                    </a>
+                </td>
+                <td>
+                    <a href="news.html#nyhed5">
+                        <h4>Philip K. Dick film festival</h4>
+                        <img id="philipbillede" src="hjemmeside/images/forside/nyheder/The_Philip_K_Dick_Festival.jpg" />
+                    </a>
+                </td>
+            </tr>
+        </table>
+        <div id="Nyhedsbrev">
+            <h2>Tilmeld eller afmeld dig vores nyhedsbrev:</h2>
+            <form action="#" method="post" id="frmEmailSignup" onsubmit="newsletter(true); return false;">
+                <input class="nyhedsbrev" type="text" name="email" placeholder="Email address" />
+                <input class="nyhedsbrev" type="button" name="signup" value="Tilmeld" />
+                <input class="nyhedsbrev" type="button" name="signout" value="Afmeld" />
+            </form>
+        </div>
+        <footer>
+            <ul>
+                <li><a href="default.html">Forside</a></li>
+                <li><a href="about.html">Om Sci-fi Zonen</a></li>
+            </ul><ul>
+                <li><a href="news.html">Nyheder</a></li>
+                <li><a href="books.html">Bøger</a></li>
+            </ul><ul>
+                <li><a href="moives.html">Film</a></li>
+                <li><a href="grafik.html">Grafik</a></li>
+            </ul><ul>
+                <li><a href="historie.html">Historie</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+            <div class="clearboth"></div>
+            <div class="footertext">
+                <h2>OBS! Eksamens projekt 2015</h2>
+                <h3>© Benn Hyrum Wigh</h3>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

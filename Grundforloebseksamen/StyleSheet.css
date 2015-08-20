@@ -1,0 +1,392 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: spaceagefont;
+    src: url(hjemmeside/space_age.ttf);
+}
+/*Text*/
+h1 {
+    font-family: spaceagefont;
+    text-align: center;
+    margin: auto auto 10px auto;
+}
+
+h2 {
+    font-family: spaceagefont;
+    font-size: 18px;
+}
+
+h3 {
+    font-family: spaceagefont;
+    font-size: 15px;
+}
+
+h4 {
+    font-family: spaceagefont;
+    font-size: 14px;
+    margin: 0 2px 2px 2px;
+}
+
+p {
+    font-size: 15px;
+}
+/*Generalt*/
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('hjemmeside/images/Baggrundsbillede.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(232,232,232);
+}
+
+#wrapper {
+    width: 960px;
+    margin: auto;
+}
+
+nav {
+    font-family: spaceagefont;
+    width: 960px;
+    padding: 10px 0 30px 0;
+    height: 45px;
+    text-align: center;
+}
+
+    nav ul {
+        list-style-type: none;
+    }
+
+        nav ul li {
+            width: 160px;
+            float: left;
+        }
+
+    nav a {
+        background-color: rgb(49,49,49);
+        height: 50px;
+        padding: 10px 0 0 0;
+        display: block;
+        text-decoration: none;
+        color: rgb(232,232,232);
+    }
+
+        nav a:hover {
+            background-color: rgb(232,232,232);
+            color: rgb(49,49,49);
+        }
+
+        nav a:active {
+            background-color: rgb(87, 95, 158);
+            color: rgb(49,49,49);
+        }
+
+    nav ul li ul {
+        z-index: 2;
+        display: none;
+        position: absolute;
+    }
+
+        nav ul li ul li {
+            float: none;
+        }
+
+        nav ul li ul a {
+            border: 5px solid rgba(49,49,49,0.2);
+            background-color: rgba(49,49,49,0.8);
+            margin-left: 0;
+            padding: 5px 30px;
+        }
+
+    nav ul li:hover ul {
+        display: block;
+    }
+
+#Nyhedsbrev {
+    font-family: spaceagefont;
+    float: left;
+    height: 30px;
+    width: 960px;
+    background-color: rgba(49,49,49,0.8);
+    margin: 10px 0;
+}
+
+    #Nyhedsbrev h2 {
+        margin: 5px;
+        font-size: 14px;
+        float: left;
+        padding: 0 5px 0 0;
+    }
+
+.nyhedsbrev {
+    margin: 5px;
+    border: none;
+    background-color: rgb(142, 142, 142);
+    font-family: spaceagefont;
+}
+
+    .nyhedsbrev:hover {
+        margin: 5px;
+        border: none;
+        background-color: rgb(128, 131, 156);
+        font-family: spaceagefont;
+    }
+
+    .nyhedsbrev:active {
+        margin: 5px;
+        border: none;
+        background-color: rgb(87, 95, 158);
+        font-family: spaceagefont;
+    }
+
+footer {
+    font-family: spaceagefont;
+    background-color: rgba(49,49,49,0.8);
+    margin: 50px auto auto auto;
+    width: 960px;
+    height: 200px;
+}
+
+.footertext {
+    margin: 65px auto auto 10px;
+}
+
+footer ul {
+    height: 50px;
+    float: left;
+    padding: 0 40px;
+    list-style-type: none;
+}
+
+footer a {
+    height: 35px;
+    padding: 10px 15px 0 15px;
+    display: block;
+    text-decoration: none;
+    color: rgb(232,232,232);
+}
+
+    footer a:hover {
+        background-color: rgb(232,232,232);
+        color: rgb(49,49,49);
+    }
+
+    footer a:active {
+        background-color: rgb(87, 95, 158);
+        color: rgb(49,49,49);
+    }
+
+.clearboth {
+    clear: both;
+}
+/*Forside*/
+#textforside {
+    width: 960px;
+    height: 200px;
+    background-color: rgba(49,49,49,0.8);
+    margin: 5px 0 15px 0;
+}
+
+    #textforside p {
+        width: 400px;
+        margin: auto 25px;
+        float: left;
+    }
+
+.sliderImg {
+    margin: 10px auto;
+}
+
+#filmbillede1 {
+    float: left;
+    margin: auto auto 15px auto;
+}
+
+#filmbillede2 {
+    float: right;
+    margin: auto auto 15px auto;
+}
+
+#forsidenyheder tr td {
+    background-color: rgba(49,49,49,0.8);
+    width: 190px;
+    height: 190px;
+}
+
+#forsidenyheder a {
+    text-decoration: none;
+    color: rgb(232,232,232);
+}
+
+#forsidenyheder td:hover {
+    text-decoration: none;
+    color: rgba(49,49,49,0.2);
+    background-color: rgb(128, 131, 156);
+}
+
+.forsidenyghederbilleder {
+    margin: 20px;
+}
+
+#philipbillede {
+    margin: 20px 20px 55px 20px;
+}
+/*Om Sci-fi Zonen*/
+#omscifizonen {
+    width: 960px;
+    height: 200px;
+    background-color: rgba(49,49,49,0.8);
+}
+
+    #omscifizonen p {
+        -webkit-columns: 200px 3; /* Chrome, Safari, Opera */
+        -moz-columns: 200px 3; /* Firefox */
+        columns: 200px 3;
+        margin: 10px;
+    }
+
+#osfrasfz {
+    margin: 15px 0;
+    width: 960px;
+    height: 50px;
+    background-color: rgba(49,49,49,0.8);
+    text-align: center;
+}
+
+    #osfrasfz h2 {
+        padding: 15px;
+    }
+
+#ansattable td {
+    width: 960px;
+    background-color: rgba(49,49,49,0.8);
+}
+
+#ansattable img {
+    padding: 10px;
+}
+
+#ansattable p {
+    padding: 10px;
+}
+/*Nyheder*/
+#nyheder td {
+    width: 480px;
+    padding: 10px;
+    background-color: rgba(49,49,49,0.8);
+}
+
+#nyheder img {
+    margin: 0 90px;
+}
+/*Bøger*/
+#books td {
+    width: 480px;
+    padding: 10px;
+}
+
+#books h2, #books p {
+    width: 400px;
+    padding: 10px;
+    background-color: rgba(49,49,49,0.8);
+}
+
+#books img {
+    margin: 0 137.50px;
+}
+/*film*/
+#film {
+    background-color: rgba(49,49,49,0.8);
+    padding: 10px;
+}
+
+    #film a {
+        float: left;
+        padding: 0 5px 0 10px;
+        color: rgb(232,232,232);
+        font-size: 15px;
+    }
+
+    #film p {
+        width: 900px;
+        -webkit-columns: 2; /* Chrome, Safari, Opera */
+        -moz-columns: 2; /* Firefox */
+        columns: 2;
+        margin: 10px;
+    }
+
+.trailer {
+    width: auto;
+    height: auto;
+    max-width: 960px;
+    margin: 15px 0;
+}
+/*Grafik*/
+.galleri {
+    padding: 10px;
+}
+/*Historie*/
+#articleHistorie h2, #articleHistorie p {
+    margin: 5px;
+}
+
+#floatleft {
+    float: left;
+    width: 450px;
+    height: 1450px;
+    background-color: rgba(49,49,49,0.8);
+}
+
+#secOvAs {
+    padding: 10px;
+}
+
+#citat {
+    padding: 10px;
+}
+
+#secUnAs {
+    padding: 10px;
+}
+
+#floatright {
+    float: right;
+    width: 450px;
+    height: 1450px;
+    background-color: rgba(49,49,49,0.8);
+}
+
+#secTHT {
+    padding: 10px;
+}
+
+#secTHB {
+    padding: 10px;
+}
+
+.clarkeasimov {
+    padding: 5px;
+}
+
+.wellssagan {
+    float: right;
+    margin: 10px;
+}
+/*Kontakt*/
+#kontakt {
+    background-color: rgba(49,49,49,0.8);
+    margin: 10px 0;
+}
+
+#kontaktbox {
+    background-color: rgba(49,49,49,0.8);
+}
+/*Tilmeld, Afmeld, Kontaktbesked*/
+#tilafmelkontaktbesked {
+    width: 960px;
+    height: 100px;
+    background-color: rgba(49,49,49,0.8);
+    text-align: center;
+}
