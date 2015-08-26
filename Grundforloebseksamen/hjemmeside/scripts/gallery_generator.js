@@ -9,7 +9,7 @@ function galleri() {
         // en forløkke er den mest præcise slags løkke da den kun køre det antal gange man har specificeret
         document.getElementById('imagegallery').innerHTML += '<a href="'+sPictures + current + '.jpg" class="galleri"  rel=gallery><img src='+sThumbnails + current + '.jpg alt="' + current + '.jpg"/></a>';
     }
-   
+        //fancybox indstilling fordi at opgavede krævede at vi brugte fancybox
         $('a[rel=gallery]').fancybox({
             'openEffect': 'elastic',
             'closeEffect': 'elastic',
